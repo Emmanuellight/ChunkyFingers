@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTCF</title>
+    <script src="https://kit.fontawesome.com/51e6c2c375.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+        <a href="index.html"><img src="image/logo 3.jpg" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    
+    <!-- About Us Content -->   
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Abuja's Finest Live Band.</h1>
+                    <p>
+                        BTCF is an Abuja  based professional live band, with egonomous singers, offering 
+                        services ranging from anchoring Events, planning event to providing excellent and suitng sound and live music for your event.
+                        
+                        <br> The idea was owned by the ruthless executer and goal getting lady. despite all odd faced in bringing 
+                        the ideal to reality, considering the enviroment that was not entertaining friendly durring the inception of the band, 
+                        today BTCF is among one of the best live band in abuja. 
+
+                        <br> We have played in several occasions such as birthday, house warming part, celebration of life including Government 
+                        event among many. We also work with with gardens, relaxation center such as Hareem Dream Garden, Lokogoma, Jabi Boat Club, and currently 
+                        working with Transcop Hilton Abuja in providing live and entertaining music for her customers.
+
+                        <br> BTCF is trusted and available to help handle your event or provide great sound and live music i oreder to make your event 
+                        colourful as you wish without you breaking your account.
+
+                        <br> We are known to taking you on musical cruise all around the world, offering highly and classical live music ranging from 
+                        olds-school to new-school for corporate and social events. we are not limited to a genre, we are are versatile and 
+                        flexible, we do Highlife, oldschool, newschool jams both foreign and local.
+                    </p>
+                    <a class="hero-btn red-btn" href="service.html">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="image/about-banner.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt deleniti quod iure labore consectetur? Itaque deserunt,
+            vero consequatur <br> quae quasi necessitatibus molestiae assumenda dicta unde impedit beatae sint facere explicabo!
+        </p>
+        <div class="icons">
+            <a href="https://www.facebook.com/bomaandthechunkyfingersabuja" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com/btcf_crew?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa fa-instagram"></i></a>
+            <i class="fa fa-twitter"></i>
+            <a href="https://wa.me/message/TJB6IVMK63S7P1" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://youtube.com/channel/UC-vnsOYfjfgfipSG8ZzoaQw" target="_blank"><i class="fa fa-youtube"></i></a>
+
+        </div>
+        <p>Made With <i class="fa fa-heart-o"></i> By Soluminous Emporium</p>
+    </section>
+    
+    <!-- Javascript for togle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+</html>
