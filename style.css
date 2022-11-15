@@ -205,7 +205,7 @@ left: 0;
 transition: 1s;
 }
 .layer:hover {
-    background-color: rgba(226,0,0,.7);
+    background-color: rgba(226,0,0,.6);
 }
 .layer h3 {
     width: 100%;
