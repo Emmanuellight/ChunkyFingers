@@ -3,6 +3,9 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 .header {
     min-height: 100vh;
@@ -174,7 +177,7 @@ h3 {
 
 /* Date With Us */
 .campus {
-    width: 80%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
@@ -187,11 +190,10 @@ h3 {
     overflow: hidden;
 }
 .campus-col img{
-    height: 100%;
+    height: 450px;
     width: 100%;
     display: block;
 }
-
 .layer {
 background-color: transparent;
 height: 100%;
@@ -206,28 +208,30 @@ transition: 1s;
 }
 .layer h3 {
     width: 100%;
-    font-weight: 800;
+    font-weight: 600;
     color: #fff;
     font-size: 30px;
     bottom: 0;
-    left:50%;
+    left: 50%;
     transform: translate(-50%);
     position: absolute;
     opacity: 0;
     transition: .5s;
 }
-.layer h3 p {
-    color: white;
-}
-.layer h3 ul {
-    font-size: 14px;
-    font-weight: 300;
-
-}
 .layer:hover h3 {
-    bottom: 3%;
+    bottom: 30%;
     opacity: 1; 
 }
+.layer h3 p {
+    font-weight: 400;
+    color: rgb(214, 211, 211);
+}
+.layer h3 ul li {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(214, 211, 211);
+}
+
 
 
 /* <!-- Event --> */
