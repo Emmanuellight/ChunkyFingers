@@ -194,6 +194,7 @@ h3 {
     width: 100%;
     display: block;
 }
+
 .layer {
 background-color: transparent;
 height: 100%;
@@ -219,7 +220,7 @@ transition: 1s;
     transition: .5s;
 }
 .layer:hover h3 {
-    bottom: 30%;
+    bottom: 10%;
     opacity: 1; 
 }
 .layer h3 p {
@@ -232,6 +233,11 @@ transition: 1s;
     color: rgb(214, 211, 211);
 }
 
+@media (max-width: 700px) {
+    .campus-col img{
+        height: 400px;
+    }
+}
 
 
 /* <!-- Event --> */
