@@ -275,22 +275,22 @@ transition: 1s;
     }
     .layer-mobile h3 {
         width: 100%;
-        font-weight: 600;
+        font-weight: 800;
         color: #fff;
-        font-size: 30px; 
+        font-size: 35px; 
         bottom: 20%;
         position: absolute;
     }
     
     .layer-mobile h3 p {
-        font-weight: 400;
+        font-weight: 600;
         color: rgb(214, 211, 211);
     }
     .layer-mobile h3  li {
         margin: 15px;
         list-style-type: none;
         font-size: 14px;
-        font-weight: 400;
+        font-weight: 600;
         color: rgb(214, 211, 211);
     }
 }
