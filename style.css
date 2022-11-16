@@ -252,7 +252,6 @@ transition: 1s;
         padding-top: 10px;
         margin-top: 50px;
     }
-    
     .campus-col-mobile img{
         height: 400px;
         width: 100%;
@@ -266,13 +265,13 @@ transition: 1s;
         overflow: hidden;
     }
     .layer-mobile {
-    background-color: rgba(226,0,0,.6);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 1s;
+        background-color: rgba(226,0,0,.6);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: 1s;
     }
     .layer-mobile h3 {
         width: 100%;
